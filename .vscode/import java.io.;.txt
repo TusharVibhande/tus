@@ -1,0 +1,54 @@
+import java.io.*;
+class Person
+{
+ int id ;
+String name;
+Person(int id,String name)
+{
+this.id=id;
+this.name=name;
+}
+Person()
+{}
+public String toString()
+{
+return id+":"+name;
+}
+}
+class Student extends Person
+{
+int  Pmoney;
+Student()
+
+{ super(110,"kattapa");
+Pmoney=9000;
+}
+public String toString()
+{
+return id+":"+name+ Pmoney;
+}
+}
+class Demo
+{
+
+ public static void main(String args[])
+{
+//Person P1=new Person(101,"abc");
+//Person P2=new Person(102,"xyz");
+Student s1=new Student();
+System.out.println(s1);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
