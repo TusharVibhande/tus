@@ -21,6 +21,9 @@ int main() {
             break;
         case 5:
             printf("Your rating is 5\n");
+            break; 
+        case 6:
+            printf("Your rating is 6\n");
             break;
         default:
             printf("Invalid rating\n");
